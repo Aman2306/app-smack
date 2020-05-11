@@ -16,11 +16,15 @@ class loginViewController: UIViewController {
     
     // MARK:- IBOutlets
     
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     
     // MARK:- IBActions
     
     @IBAction func closeButtonPressed(_ sender: UIButton) {
-        print("dismiss view controller")
         dismiss(animated: true, completion: nil)
+    }
+    @IBAction func signUpButtonPressed(_ sender: UIButton) {
+        performSegue(withIdentifier: K.Segue.toCreateAccountSegueID, sender: self)
     }
 }

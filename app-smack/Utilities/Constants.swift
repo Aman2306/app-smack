@@ -12,6 +12,9 @@ struct K {
     
     struct Segue {
         static let toLoginSegueID = "toLogin"
+        static let toCreateAccountSegueID = "toCreateAccount"
+        static let unwindFromSignIn = "unwindToChannelVCFromSignIn"
+        static let unwindFromSignUp = "unwindToChannelVCFromSignUp"
     }
     
     struct TableView {

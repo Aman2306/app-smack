@@ -21,6 +21,7 @@ class ChatViewController: UIViewController {
         
         // Adding tap gesture, so that rear view controller will hide itself upon tapping on front view controller
         self.view.addGestureRecognizer((self.revealViewController()?.tapGestureRecognizer())!)
+        
     }
     
     // MARK:- IBOutlets

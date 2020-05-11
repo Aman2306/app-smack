@@ -17,6 +17,7 @@
 		A69A74482403F171006BB615 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A74472403F171006BB615 /* ChatViewController.swift */; };
 		A69A744A2403F181006BB615 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A74492403F181006BB615 /* ChannelViewController.swift */; };
 		A69A746E240405C0006BB615 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A746D240405C0006BB615 /* GradientView.swift */; };
+		A6B80D6124693C85008A502B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B80D6024693C85008A502B /* SignUpViewController.swift */; };
 		A6F3A0E724684CB100725A3B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F3A0E624684CB100725A3B /* Constants.swift */; };
 		A6F3A0EA2468835300725A3B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F3A0E92468835300725A3B /* loginViewController.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		A69A745A2403FBBD006BB615 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69A746B240403BE006BB615 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69A746D240405C0006BB615 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A6B80D6024693C85008A502B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A6F3A0E624684CB100725A3B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A6F3A0E92468835300725A3B /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		C22AD6307D6C57E801C75110 /* Pods_app_smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app_smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +145,7 @@
 				A69A74472403F171006BB615 /* ChatViewController.swift */,
 				A69A74492403F181006BB615 /* ChannelViewController.swift */,
 				A6F3A0E92468835300725A3B /* loginViewController.swift */,
+				A6B80D6024693C85008A502B /* SignUpViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				A69A74482403F171006BB615 /* ChatViewController.swift in Sources */,
 				A6F3A0EA2468835300725A3B /* loginViewController.swift in Sources */,
 				A6F3A0E724684CB100725A3B /* Constants.swift in Sources */,
+				A6B80D6124693C85008A502B /* SignUpViewController.swift in Sources */,
 				A69A74432403E16B006BB615 /* SWRevealViewController.m in Sources */,
 				A69A744A2403F181006BB615 /* ChannelViewController.swift in Sources */,
 			);
@@ -431,7 +435,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "app-smack/Supporting Files/app-smack-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -452,7 +456,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "app-smack/Supporting Files/app-smack-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
